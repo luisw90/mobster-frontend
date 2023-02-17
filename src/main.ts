@@ -17,8 +17,8 @@ const fetchMob = async () => {
     <article>
       <div class="mob__card">
         <h2 class="mob__item-name">${member.name}</h2>
-        <p class="mob___item-linkedin-link">${member.linkedin}</p>
-        <p class="mob___item-github-link">${member.github}</p>
+        <p class="mob___item-linkedin-link"><a href="${member.linkedin}">${member.linkedin}</a></p>
+        <p class="mob___item-github-link"><a href="${member.github}">${member.github}</a></p>
       </div>
     </article>`
   } )
