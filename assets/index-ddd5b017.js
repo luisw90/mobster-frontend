@@ -2,7 +2,7 @@
     <article>
       <div class="mob__card">
         <h2 class="mob__item-name">${o.name}</h2>
-        <p class="mob___item-linkedin-link">${o.linkedin}</p>
-        <p class="mob___item-github-link">${o.github}</p>
+        <p class="mob___item-linkedin-link"><a href="${o.linkedin}">${o.linkedin}</a></p>
+        <p class="mob___item-github-link"><a href="${o.github}">${o.github}</a></p>
       </div>
     </article>`})};l();
