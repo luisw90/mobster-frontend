@@ -14,18 +14,17 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 3rem;
   color:rgb(0, 0, 0);
-  margin-bottom: 25%;
+  margin-top: 15%;
   margin-bottom: 50px;
 }
 
 .mob__container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 0.9rem;
 }
@@ -33,8 +32,9 @@ body {
 .mob__card {
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 20px rgb(173, 173, 173);
+  box-shadow: 0 0 20px rgb(88, 53, 227);
+  border: 1px solid rgb(88, 53, 227);
   padding-inline: 50px;
-  border-radius: 10px;
+  border-radius: 12px;
   color:rgb(1, 1, 1);
 }
